@@ -1,0 +1,72 @@
+*, *::before, *::after {
+    font-family: "Jost", Arial;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #150b0b;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 500;
+    color: #150b0b;
+    background-color: rgb(204, 204, 226);
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(204, 204, 226);
+    font-weight: 700;
+    margin: 1rem;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(189, 178, 165);
+    font-weight: 400;
+}
+
+#converter {
+    background-color: rgb(61, 12, 12);
+    width: 50vw;
+    border: 3px solid;
+    border-radius: 0.7rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#converter * {
+    margin: 0.5rem auto;
+}
+
+#output {
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(204, 204, 226);
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+input {
+    width: 40%;
+}
+
+button {
+    background-color: rgb(204, 204, 226);
+    width: 40%;
+    border: 3px solid;
+    border-radius: 0.1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #150b0b;
+}
